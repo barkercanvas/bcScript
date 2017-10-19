@@ -1,0 +1,310 @@
+/* ALL CONTENT */
+
+/* Maker images responsive */
+.cheese {
+  width: 100% !important;
+  float: left !important;
+}
+
+.rcorners {
+  border-radius: 25px;
+  border: 2px solid #ea202d;
+  padding: 0 15px 15px 15px;
+  width: 95%;
+  margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/* Course template */
+/* Make home page images responsive */
+div.bc-course > table.bc-home > tbody > tr > td {
+  width: 1% !important;
+}
+
+div.bc-course > table.bc-home > tbody > tr > td > a > img, div.bc-course > table.bc-home > tbody > tr > td > img {
+  width: 100% !important;
+  float: left !important;
+}
+
+/* Common - All Pages */
+h1.page-title {
+	font-size: 2em !important;
+	font-weight: 400 !important;
+	color: #ea202d !important;
+}
+
+div.bc-course h1,h3 {
+	font-weight: 600;
+}
+
+div.bc-course img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+div.bc-course ol > li {
+    list-style-type: decimal;
+}
+
+div.bc-course ol > li > ol > li {
+    list-style-type: lower-alpha;
+}
+
+
+/* Objective Heading Rounded
+The following applies to the blue Objective tables found at the top of content pages.
+This allows these tables to have rounded boarders*/
+table.bc-block-objective {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border-spacing: 0;
+  text-align: left;
+  border-collapse: separate;
+}
+
+table.bc-block-objective thead th {
+  background: #15296c;
+  color: #fff;
+  text-align: center;
+  border: hidden;
+}
+
+table.bc-block-objective thead tr:first-child img {
+  float: left;
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+	border-radius: initial;
+}
+
+table.bc-block-objective thead th:first-child {
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+table.bc-block-objective thead :first-child {
+  text-decoration: none !important;
+}
+
+table.bc-block-objective tbody td:last-child {
+  border-radius: 0 0 15px 15px !important;
+  -webkit-border-radius: 0 0 15px 15px !important;
+  -moz-border-radius: 0 0 15px 15px !important;
+  background:rgba(21, 41, 108, 0.07);
+  border: hidden;
+  border-collapse: separate;
+  padding-left: 10px !important;
+}
+/* Nested tables within the Objective Table need to have separate rules to avoid the rounded corners */
+table.bc-block-objective table {
+  border-radius: none;
+}
+
+/* Assessment Info */
+table.bc-block-assessment {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border-spacing: 0;
+  text-align: left;
+  border-collapse: separate;
+}
+
+table.bc-block-assessment thead {
+  background: #15296c;
+  color: #fff;
+  text-align: center;
+  border: hidden;
+}
+
+table.bc-block-assessment thead :first-child {
+  text-decoration: none !important;
+}
+
+table.bc-block-assessment thead img {
+  float: left;
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+	border-radius: initial;
+}
+
+table.bc-block-assessment thead th:first-child {
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  padding: 0;
+}
+
+table.bc-block-assessment tbody td{
+  background: rgba(21, 41, 108, 0.07);
+  padding-left: 8px !important;
+  padding-top: 5px !important;
+
+}
+
+table.bc-block-assessment tr:last-child td:last-child {
+  border-radius: 0 0 15px 15px !important;
+  -webkit-border-radius: 0 0 15px 15px !important;
+  -moz-border-radius: 0 0 15px 15px !important;
+  border: hidden;
+  border-collapse: separate;
+  font-weight: normal;
+}
+table.bc-block-assessment tbody td:first-child {
+	font-weight: bold;
+}
+
+
+/* Generic Blocks */
+table.bc-content-generic {
+	margin: 0 auto;
+  margin-bottom: 10px;
+	width: 100%;
+  border-spacing: 0px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border-spacing: 0;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.bc-content-generic thead tr {
+	text-align: center;
+  background-color: #ea202d;
+  color: #fff;
+  border: hidden;
+  text-decoration: none;
+}
+
+table.bc-content-generic thead tr:first-child img {
+  float: left;
+  margin: 10px;
+	width: 35px;
+	height: 35px;
+	border-radius: initial;
+}
+
+table.bc-content-generic thead :first-child {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  padding: 0 !important;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+table.bc-content-generic tbody td {
+  border-top: 1px solid silver;
+}
+
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+
+  /*Borders - (Optional)*/
+  border-left: 15px solid #ea202d;
+  border-right: 2px solid #ea202d;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #ea202d;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+/*Icons with colored circle */
+div.ig-published > span.type_icon[title='Wiki Page'] > span.ig-type-icon {
+	background-color: #00ac18;
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title=Quiz] > span.ig-type-icon {
+	background-color: #0092d7;
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title='Discussion Topic'] > span.ig-type-icon {
+	background-color: #15296c;
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title=Assignment] > span.ig-type-icon {
+	background-color: #ea202d;
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title=Attachment] > span.ig-type-icon {
+	background-color: rgb(197, 161, 0);
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title=Announcement] > span.ig-type-icon {
+	background-color: #ea202d;
+	border-radius: 15px;
+	color:white;
+}
+div.ig-published > span.type_icon[title='External URL'] > span.ig-type-icon {
+	background-color: #ad008c;
+	border-radius: 15px;
+	color:white;
+}
